@@ -1,0 +1,12 @@
+{
+    "name": "Profit3",
+    "description": "Profit3",
+    "keywords": ["faker","Profit3"],
+    "homepage": "http://site.my/",
+    "type": "project",
+    "license": "",
+    "minimum-stability": "stable",
+    "require": {
+        "fzaninotto/faker" : "*"
+    }
+}

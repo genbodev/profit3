@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Profit3</title>
+</head>
+<body>
+
+<div style="display: flex; margin-bottom: 5px;">
+    <div style="width: 300px;">
+        <label for="employees">Заполнить таблицу с сотрудниками</label>
+    </div>
+    <div>
+        <button type="button" name="employees" id="employees">Поехали</button>
+    </div>
+    <div style="margin-left: 10px; padding-top: 2px;" id="employees-state"></div>
+</div>
+<div style="display: flex; margin-bottom: 5px;">
+    <div style="width: 300px;">
+        <label for="wages">Заполнить таблицу с заработными платами</label>
+    </div>
+    <div>
+        <button type="button" name="wages" id="wages">Поехали</button>
+    </div>
+    <div style="margin-left: 10px; padding-top: 2px;" id="wages-state"></div>
+</div>
+<div style="display: flex; margin-bottom: 5px;">
+    <div style="width: 300px;">
+        <label for="query">Выбрать сотрудников без ЗП за февраль</label>
+    </div>
+    <div>
+        <button type="button" name="query" id="query" disabled>Поехали</button>
+    </div>
+    <div style="margin-left: 10px; padding-top: 2px;" id="query-state"></div>
+</div>
+
+<div style="" id="result"></div>
+
+<script src="/assets/js/jquery-3.2.1.min.js"></script>
+<script src="/assets/js/script.js"></script>
+</body>
+</html>
